@@ -17,7 +17,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTkwMjEwNSwiZXhwIjoxNjk5OTA5MzA1fQ.S596yPZg17mrjAkyujjNPZE9XQbPGrdmrbslGhl9a90",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTExMTkyNCwiZXhwIjoxNzAxMTE5MTI0fQ.VjIEkNH6aLswFyp8ZUMskCNhSHrt5WTI9Db5BbqEtEA",
 									"type": "string"
 								}
 							]
@@ -26,7 +26,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\":\"manager\",\r\n    \"password\":\"manager123\",\r\n    \"email\":\"manager@gmail.com\",\r\n    \"phone\": 730234234\r\n}",
+							"raw": "{\r\n    \"username\":\"managerS\",\r\n    \"password\":\"managerS123\",\r\n    \"email\":\"managerS@gmail.com\",\r\n    \"phone\": 730234235\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -55,7 +55,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTkwMjEwNSwiZXhwIjoxNjk5OTA5MzA1fQ.S596yPZg17mrjAkyujjNPZE9XQbPGrdmrbslGhl9a90",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTExMTkyNCwiZXhwIjoxNzAxMTE5MTI0fQ.VjIEkNH6aLswFyp8ZUMskCNhSHrt5WTI9Db5BbqEtEA",
 									"type": "string"
 								}
 							]
@@ -64,7 +64,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"Volkswagen\"\r\n}",
+							"raw": "{\r\n    \"name\":\"Mercedes\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -93,7 +93,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTkwMjEwNSwiZXhwIjoxNjk5OTA5MzA1fQ.S596yPZg17mrjAkyujjNPZE9XQbPGrdmrbslGhl9a90",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTExMTkyNCwiZXhwIjoxNzAxMTE5MTI0fQ.VjIEkNH6aLswFyp8ZUMskCNhSHrt5WTI9Db5BbqEtEA",
 									"type": "string"
 								}
 							]
@@ -102,7 +102,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"name\":\"Touran\"\r\n}",
+							"raw": "{\r\n    \"name\":\"AMG\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -110,15 +110,20 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8080/admin/model/2",
+							"raw": "localhost:8080/admin/model?producerId=52",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"admin",
-								"model",
-								"2"
+								"model"
+							],
+							"query": [
+								{
+									"key": "producerId",
+									"value": "52"
+								}
 							]
 						}
 					},
@@ -132,7 +137,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTkwMjEwNSwiZXhwIjoxNjk5OTA5MzA1fQ.S596yPZg17mrjAkyujjNPZE9XQbPGrdmrbslGhl9a90",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTExMTkyNCwiZXhwIjoxNzAxMTE5MTI0fQ.VjIEkNH6aLswFyp8ZUMskCNhSHrt5WTI9Db5BbqEtEA",
 									"type": "string"
 								}
 							]
@@ -161,7 +166,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTkwMjEwNSwiZXhwIjoxNjk5OTA5MzA1fQ.S596yPZg17mrjAkyujjNPZE9XQbPGrdmrbslGhl9a90",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTExMTkyNCwiZXhwIjoxNzAxMTE5MTI0fQ.VjIEkNH6aLswFyp8ZUMskCNhSHrt5WTI9Db5BbqEtEA",
 									"type": "string"
 								}
 							]
@@ -190,7 +195,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTkwMjEwNSwiZXhwIjoxNjk5OTA5MzA1fQ.S596yPZg17mrjAkyujjNPZE9XQbPGrdmrbslGhl9a90",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTExMTkyNCwiZXhwIjoxNzAxMTE5MTI0fQ.VjIEkNH6aLswFyp8ZUMskCNhSHrt5WTI9Db5BbqEtEA",
 									"type": "string"
 								}
 							]
@@ -198,15 +203,20 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/admin/managers/4",
+							"raw": "localhost:8080/admin/managers?id=9",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"admin",
-								"managers",
-								"4"
+								"managers"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "9"
+								}
 							]
 						}
 					},
@@ -220,7 +230,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTkwMjEwNSwiZXhwIjoxNjk5OTA5MzA1fQ.S596yPZg17mrjAkyujjNPZE9XQbPGrdmrbslGhl9a90",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTExMTkyNCwiZXhwIjoxNzAxMTE5MTI0fQ.VjIEkNH6aLswFyp8ZUMskCNhSHrt5WTI9Db5BbqEtEA",
 									"type": "string"
 								}
 							]
@@ -228,15 +238,20 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/admin/premium/2",
+							"raw": "localhost:8080/admin/premium?id=9",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"admin",
-								"premium",
-								"2"
+								"premium"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "9"
+								}
 							]
 						}
 					},
@@ -250,7 +265,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTkwMjEwNSwiZXhwIjoxNjk5OTA5MzA1fQ.S596yPZg17mrjAkyujjNPZE9XQbPGrdmrbslGhl9a90",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTExMTkyNCwiZXhwIjoxNzAxMTE5MTI0fQ.VjIEkNH6aLswFyp8ZUMskCNhSHrt5WTI9Db5BbqEtEA",
 									"type": "string"
 								}
 							]
@@ -258,15 +273,20 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/admin/users/5",
+							"raw": "localhost:8080/admin/users?id=10",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"admin",
-								"users",
-								"5"
+								"users"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "10"
+								}
 							]
 						}
 					},
@@ -280,7 +300,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTg2ODA2NywiZXhwIjoxNjk5ODc1MjY3fQ.krs7HitWrLBv31YZ-QGlX9MhxqHVIaO_ci8GfncMp4Y",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTE4NzE2MSwiZXhwIjoxNzAxMTk0MzYxfQ.pWAw29ifUvg8jtxXjv-t0_kLFCuR8-jHjzDbfOgZ8tE",
 									"type": "string"
 								}
 							]
@@ -288,7 +308,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/admin/images?carId=5&imageId=352",
+							"raw": "localhost:8080/admin/images?carId=5&imageId=153",
 							"host": [
 								"localhost"
 							],
@@ -304,7 +324,7 @@
 								},
 								{
 									"key": "imageId",
-									"value": "352"
+									"value": "153"
 								}
 							]
 						}
@@ -323,7 +343,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\":\"manager\",\r\n    \"password\":\"manager123\"\r\n}",
+							"raw": "{\r\n    \"username\":\"admin\",\r\n    \"password\":\"admin123\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -350,7 +370,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"refresh\":\"eyJhbGciOiJIUzI1NiJ9.eyJ0eXBlIjoicmVmcmVzaCIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE2OTk5MDgwNDUsImV4cCI6MTcwMDA4MDg0NX0.HAqp0hMp2LAAxCuSSZu1IxPjfoGcNAkZJBV9DZE5rV0\"\r\n}",
+							"raw": "{\r\n    \"refresh\":\"eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTExODk5MSwiZXhwIjoxNzAxMTI2MTkxfQ.Gy6PR6Q88XZeM3L4mwAfdn_kDiCOoTuCgzr9VY36AR4\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -382,7 +402,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"username\":\"milan\",\r\n    \"password\":\"milan123\",\r\n    \"email\":\"milan@gmail.com\",\r\n    \"phone\": 636235234\r\n}",
+							"raw": "{\r\n    \"username\":\"abs\",\r\n    \"password\":\"nik123\",\r\n    \"email\":\"abs@gmail.com\",\r\n    \"phone\": 636335522\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -408,14 +428,19 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/views/3",
+							"raw": "localhost:8080/views?id=4",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
-								"views",
-								"3"
+								"views"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
 							]
 						}
 					},
@@ -427,7 +452,7 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/search/notify-not-found?producer=volvo",
+							"raw": "localhost:8080/search/notify-not-found?model=passat&producerId=2",
 							"host": [
 								"localhost"
 							],
@@ -438,8 +463,12 @@
 							],
 							"query": [
 								{
-									"key": "producer",
-									"value": "volvo"
+									"key": "model",
+									"value": "passat"
+								},
+								{
+									"key": "producerId",
+									"value": "2"
 								}
 							]
 						}
@@ -452,13 +481,19 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/search",
+							"raw": "localhost:8080/search?ccy=uah",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"search"
+							],
+							"query": [
+								{
+									"key": "ccy",
+									"value": "uah"
+								}
 							]
 						}
 					},
@@ -558,7 +593,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/currency?ccy=UAH&value=1000",
+							"raw": "localhost:8080/currency?ccy=uah&value=2500",
 							"host": [
 								"localhost"
 							],
@@ -569,11 +604,11 @@
 							"query": [
 								{
 									"key": "ccy",
-									"value": "UAH"
+									"value": "uah"
 								},
 								{
 									"key": "value",
-									"value": "1000"
+									"value": "2500"
 								}
 							]
 						}
@@ -593,7 +628,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfTUFOQUdFUiIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE2OTk5MDg4NTUsImV4cCI6MTY5OTkxNjA1NX0.JFUQ8tFLxUoqlb0eNqJZLLvYdkGRx6_gAMKvoYkZHag",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfTUFOQUdFUiIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE3MDExODEzMzIsImV4cCI6MTcwMTE4ODUzMn0.cvQutoYl763KdQDMZWuX9fC0iav1fsLsn2BqzifjHCw",
 									"type": "string"
 								}
 							]
@@ -622,7 +657,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE2OTk5MDgwMTEsImV4cCI6MTY5OTkxNTIxMX0.cge1B2WuZqGOm7AeFIANn_wBN4o1oonWLXJxBQHR6sI",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfTUFOQUdFUiIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE3MDExODEzMzIsImV4cCI6MTcwMTE4ODUzMn0.cvQutoYl763KdQDMZWuX9fC0iav1fsLsn2BqzifjHCw",
 									"type": "string"
 								}
 							]
@@ -630,15 +665,20 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/manage/cars/4",
+							"raw": "localhost:8080/manage/cars?id=4",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"manage",
-								"cars",
-								"4"
+								"cars"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
 							]
 						}
 					},
@@ -652,7 +692,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfTUFOQUdFUiIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE2OTk5MDgwNDUsImV4cCI6MTY5OTkxNTI0NX0.pxRphG9ac0GT5fyUUlugoHFkd76-VhtfgjKNMawo8yo",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfTUFOQUdFUiIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE3MDExODEzMzIsImV4cCI6MTcwMTE4ODUzMn0.cvQutoYl763KdQDMZWuX9fC0iav1fsLsn2BqzifjHCw",
 									"type": "string"
 								}
 							]
@@ -660,7 +700,7 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/manage/users/ban/6",
+							"raw": "localhost:8080/manage/users/ban?id=8",
 							"host": [
 								"localhost"
 							],
@@ -668,8 +708,13 @@
 							"path": [
 								"manage",
 								"users",
-								"ban",
-								"6"
+								"ban"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "8"
+								}
 							]
 						}
 					},
@@ -683,7 +728,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfTUFOQUdFUiIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE2OTk5MDgwNDUsImV4cCI6MTY5OTkxNTI0NX0.pxRphG9ac0GT5fyUUlugoHFkd76-VhtfgjKNMawo8yo",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfTUFOQUdFUiIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE3MDExODEzMzIsImV4cCI6MTcwMTE4ODUzMn0.cvQutoYl763KdQDMZWuX9fC0iav1fsLsn2BqzifjHCw",
 									"type": "string"
 								}
 							]
@@ -691,7 +736,7 @@
 						"method": "PUT",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/manage/users/unban/6",
+							"raw": "localhost:8080/manage/users/unban?id=8",
 							"host": [
 								"localhost"
 							],
@@ -699,8 +744,13 @@
 							"path": [
 								"manage",
 								"users",
-								"unban",
-								"6"
+								"unban"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "8"
+								}
 							]
 						}
 					},
@@ -714,7 +764,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWFuYWdlciIsImlhdCI6MTY5OTg2ODY5OCwiZXhwIjoxNjk5ODc1ODk4fQ.qTgSu51-i0cjI8jWZFJiuu5Ixf358aORtCaK04QsAR0",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfTUFOQUdFUiIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE3MDExODEzMzIsImV4cCI6MTcwMTE4ODUzMn0.cvQutoYl763KdQDMZWuX9fC0iav1fsLsn2BqzifjHCw",
 									"type": "string"
 								}
 							]
@@ -722,15 +772,20 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/manage/cars/2",
+							"raw": "localhost:8080/manage/cars?id=4",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"manage",
-								"cars",
-								"2"
+								"cars"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "4"
+								}
 							]
 						}
 					},
@@ -749,7 +804,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfTUFOQUdFUiIsInN1YiI6Im1hbmFnZXIiLCJpYXQiOjE2OTk5MDc3MTUsImV4cCI6MTY5OTkxNDkxNX0.RdtyxvJFabQUdNdz64WoA9awkPqY9TgXDsR_Ee4ULO0",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE3MDExODE5ODEsImV4cCI6MTcwMTE4OTE4MX0.5J1UmQwuSsVGDAC1_ALg-SxOUwnVxSoyQMfqhR5jdfM",
 									"type": "string"
 								}
 							]
@@ -758,7 +813,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"model\":\"Lupo\",\r\n    \"producer\":\"Volkswagen\",\r\n    \"year\":2010,\r\n    \"power\":100,\r\n    \"type\":\"Hatchback\",\r\n    \"details\":\"супфывафывафыва\",\r\n    \"runKm\":5000,\r\n    \"engineVolume\":2.0,\r\n    \"color\":\"black\",\r\n    \"region\":\"Lvivskiy\",\r\n    \"place\":\"Novyi Rozdil\",\r\n    \"transmition\":\"RWD\",\r\n    \"gearbox\":\"5\",\r\n    \"price\":5000,\r\n    \"currencyName\":\"EUR\"\r\n}",
+							"raw": "{\r\n    \"model\":\"Lupo\",\r\n    \"producer\":\"volkswagen\",\r\n    \"year\":2010,\r\n    \"power\":100,\r\n    \"type\":\"Hatchback\",\r\n    \"details\":\"супфывафывафыва\",\r\n    \"runKm\":5000,\r\n    \"engineVolume\":2.0,\r\n    \"color\":\"black\",\r\n    \"region\":\"Lvivskiy\",\r\n    \"place\":\"Novyi Rozdil\",\r\n    \"transmition\":\"RWD\",\r\n    \"gearbox\":\"5\",\r\n    \"price\":5000,\r\n    \"currencyName\":\"EUR\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -787,7 +842,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE2OTk5MDU4NTQsImV4cCI6MTY5OTkxMzA1NH0.mg50uH0pYYMCU49CXAY1tluYG2J1sk077KH7O5oo8DM",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE3MDExODE5ODEsImV4cCI6MTcwMTE4OTE4MX0.5J1UmQwuSsVGDAC1_ALg-SxOUwnVxSoyQMfqhR5jdfM",
 									"type": "string"
 								}
 							]
@@ -816,7 +871,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE2OTk5MDU4NTQsImV4cCI6MTY5OTkxMzA1NH0.mg50uH0pYYMCU49CXAY1tluYG2J1sk077KH7O5oo8DM",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE3MDExODE5ODEsImV4cCI6MTcwMTE4OTE4MX0.5J1UmQwuSsVGDAC1_ALg-SxOUwnVxSoyQMfqhR5jdfM",
 									"type": "string"
 								}
 							]
@@ -824,7 +879,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/user/cars/average-price?producer=Volkswagen&model=Lupo",
+							"raw": "localhost:8080/user/cars/average-price?producer=Volkswagen&model=Lupo&ccy=eur",
 							"host": [
 								"localhost"
 							],
@@ -842,6 +897,10 @@
 								{
 									"key": "model",
 									"value": "Lupo"
+								},
+								{
+									"key": "ccy",
+									"value": "eur"
 								}
 							]
 						}
@@ -856,7 +915,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE2OTk5MDU4NTQsImV4cCI6MTY5OTkxMzA1NH0.mg50uH0pYYMCU49CXAY1tluYG2J1sk077KH7O5oo8DM",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE3MDExODE5ODEsImV4cCI6MTcwMTE4OTE4MX0.5J1UmQwuSsVGDAC1_ALg-SxOUwnVxSoyQMfqhR5jdfM",
 									"type": "string"
 								}
 							]
@@ -865,7 +924,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"model\":\"Golf\",\r\n    \"producer\":\"Volkswagen\",\r\n    \"year\":2003,\r\n    \"power\":120,\r\n    \"type\":\"Hatchback\",\r\n    \"details\":\"сфіваіва lskdflksjd lksdflksjd lkfsjldkfjl \",\r\n    \"runKm\":100000,\r\n    \"engineVolume\":2.0,\r\n    \"color\":\"black\",\r\n    \"region\":\"Lvivskiy\",\r\n    \"place\":\"Novyi Rozdil\",\r\n    \"transmition\":\"RWD\",\r\n    \"gearbox\":\"5\",\r\n    \"price\":5000,\r\n    \"currencyName\":\"EUR\",\r\n    \"photo\":null\r\n}",
+							"raw": "{\r\n    \"model\":\"Golf\",\r\n    \"producer\":\"Volkswagen\",\r\n    \"year\":2003,\r\n    \"power\":120,\r\n    \"type\":\"Hatchback\",\r\n    \"details\":\"сфіваіва lskdflksjd lksdflksjd lkfsjldkfjl \",\r\n    \"runKm\":100000,\r\n    \"engineVolume\":2.0,\r\n    \"color\":\"black\",\r\n    \"region\":\"Lvivskiy\",\r\n    \"place\":\"Novyi Rozdil\",\r\n    \"transmition\":\"RWD\",\r\n    \"gearbox\":\"5\",\r\n    \"price\":7000,\r\n    \"currencyName\":\"EUR\",\r\n    \"photo\":null\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -873,15 +932,20 @@
 							}
 						},
 						"url": {
-							"raw": "localhost:8080/user/cars/3",
+							"raw": "localhost:8080/user/cars?id=5",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"user",
-								"cars",
-								"3"
+								"cars"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
 							]
 						}
 					},
@@ -895,7 +959,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE2OTk5MDU4NTQsImV4cCI6MTY5OTkxMzA1NH0.mg50uH0pYYMCU49CXAY1tluYG2J1sk077KH7O5oo8DM",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE3MDExODE5ODEsImV4cCI6MTcwMTE4OTE4MX0.5J1UmQwuSsVGDAC1_ALg-SxOUwnVxSoyQMfqhR5jdfM",
 									"type": "string"
 								}
 							]
@@ -907,18 +971,18 @@
 							"formdata": [
 								{
 									"key": "id",
-									"value": "3",
+									"value": "5",
 									"type": "text"
 								},
 								{
 									"key": "image",
 									"type": "file",
-									"src": "/C:/Users/milan/Downloads/VW_Golf_7_Blue_(11050391564)_(cropped).jpg"
+									"src": "/C:/Users/milan/Downloads/Volkswagen_Golf_IV_4-door.jpg"
 								}
 							]
 						},
 						"url": {
-							"raw": "localhost:8080/user/cars/img",
+							"raw": "localhost:8080/user/cars/img?id=5",
 							"host": [
 								"localhost"
 							],
@@ -927,6 +991,12 @@
 								"user",
 								"cars",
 								"img"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "5"
+								}
 							]
 						}
 					},
@@ -940,7 +1010,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWFuYWdlciIsImlhdCI6MTY5OTg2ODY5OCwiZXhwIjoxNjk5ODc1ODk4fQ.qTgSu51-i0cjI8jWZFJiuu5Ixf358aORtCaK04QsAR0",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfU0VMTEVSIiwic3ViIjoibWlsYW4iLCJpYXQiOjE3MDExODE5ODEsImV4cCI6MTcwMTE4OTE4MX0.5J1UmQwuSsVGDAC1_ALg-SxOUwnVxSoyQMfqhR5jdfM",
 									"type": "string"
 								}
 							]
@@ -948,15 +1018,20 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/user/cars/6",
+							"raw": "localhost:8080/user/cars?id=6",
 							"host": [
 								"localhost"
 							],
 							"port": "8080",
 							"path": [
 								"user",
-								"cars",
-								"6"
+								"cars"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "6"
+								}
 							]
 						}
 					},
@@ -970,7 +1045,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTY5OTg2MzYxOCwiZXhwIjoxNjk5ODcwODE4fQ.g4UAEv4ZEGTRt9LOpoGTEMnU65R7ddyYAP8wDY05Zvk",
+									"value": "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlcyI6IlJPTEVfQURNSU4iLCJzdWIiOiJhZG1pbiIsImlhdCI6MTcwMTE4NzE2MSwiZXhwIjoxNzAxMTk0MzYxfQ.pWAw29ifUvg8jtxXjv-t0_kLFCuR8-jHjzDbfOgZ8tE",
 									"type": "string"
 								}
 							]
@@ -978,7 +1053,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "localhost:8080/user/cars/img?id=2&fileName=car-2-image-11.webp",
+							"raw": "localhost:8080/user/cars/img?id=153",
 							"host": [
 								"localhost"
 							],
@@ -991,11 +1066,7 @@
 							"query": [
 								{
 									"key": "id",
-									"value": "2"
-								},
-								{
-									"key": "fileName",
-									"value": "car-2-image-11.webp"
+									"value": "153"
 								}
 							]
 						}
